@@ -243,3 +243,10 @@ body {
     font-weight:600
   }
 }
+#stellar {
+  background-image: url("https://www.wallpapertip.com/wmimgs/18-187237_data-src-black-hole-wallpaper-4k.jpg");
+}
+
+#stellar-explore {
+  text-align: left;
+}
