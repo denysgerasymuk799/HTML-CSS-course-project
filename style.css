@@ -21,6 +21,67 @@ body {
     background-image: url("./photos/starlink.jpg");
   }
 
+  #mars
+  {
+	background-image: url("photos/mars.jpg");
+        background-size: 100% 100%;
+        align-items: center;
+        height: 100%;
+  }
+  .quote {
+    padding: 10px;
+    width: 30%;
+    height: 17%;
+    text-align:center;
+    position: absolute;
+    left: 35%;
+    top: 70%;
+    font-size: 170%;
+    text-align: right;
+  }
+
+
+    .qmars {
+    padding: 10px;
+    width: 30%;
+    height: 17%;
+    text-align:center;
+    position: relative;
+    left: 20%;
+    top: 10%;
+    font-size: 170%;
+    text-align: right;
+  }
+
+
+    .cmars {
+    padding: 10px;
+    width: 30%;
+    height: 17%;
+    text-align:center;
+    position: relative;
+    left: 12%;
+    top: 15%;
+    font-size: 170%;
+    text-align: right;
+  }
+
+  .mdiscover_button {
+    border-radius: 25px;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    width: 80px;
+    height: 20px;
+    transition: 0.3s;
+    background: black;
+    left: 58%;
+    top: 20%;
+  }
+  .mdiscover_button:hover {
+    background: orange;
+  }
+
   #space_hub {
     border: 2px solid #FFFFFF;
     padding: 10px; 
