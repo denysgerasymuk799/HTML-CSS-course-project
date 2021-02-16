@@ -13,7 +13,7 @@ body {
   }
 
   #solar {
-    background-image: url("https://wallpapercave.com/wp/wp3366878.jpg");
+    background-image: url("photos/solar.jpg");
   }
 
   #space_hub {
@@ -142,9 +142,9 @@ body {
 }
 .site-footer .social-icons a
 {
-  width:40px;
-  height:40px;
-  line-height:40px;
+  width:50px;
+  height:50px;
+  line-height:50px;
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
@@ -211,6 +211,9 @@ body {
   color:#fff;
   background-color:#29aafe
 }
+.social-icons i{
+  margin-top: 10px;
+}
 .social-icons.size-sm a
 {
   line-height:34px;
@@ -230,7 +233,7 @@ body {
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.telegram:hover
 {
   background-color:#ea4c89
 }
