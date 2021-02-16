@@ -16,6 +16,11 @@ body {
     background-image: url("photos/solar.jpg");
   }
 
+
+  #rocket {
+    background-image: url("./photos/starlink.jpg");
+  }
+
   #space_hub {
     border: 2px solid #FFFFFF;
     padding: 10px; 
