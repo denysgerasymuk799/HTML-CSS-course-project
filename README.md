@@ -2,7 +2,7 @@
 
 ## Authors:
 - Pavlo Hilei
-- Denys Herasymyk
+- Denys Herasymuk
 - Yevhen Pankevych
 - Volodymyr Tsapiv
 - Maxym Bilyk
