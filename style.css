@@ -328,3 +328,9 @@ body {
 #stellar-explore {
   text-align: left;
 }
+
+img[src="photos/hub.jpg"] {
+  position: absolute;
+  left: 10%;
+  width: 7%;
+}
