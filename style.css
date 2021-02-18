@@ -4,18 +4,19 @@ body {
     color: white;
     text-align: center;
   }
+
+section {
+  width:100%;
+  height: 100vh;
+}
+
   .section_header {
     color: orange;
-  }
-  
-  .section_page {
-    height: 100%;
   }
 
   #solar {
     background-image: url("photos/solar.jpg");
   }
-
 
   #rocket {
     background-image: url("./photos/starlink.jpg");
@@ -24,9 +25,6 @@ body {
   #mars
   {
 	background-image: url("photos/mars.jpg");
-        background-size: 100% 100%;
-        align-items: center;
-        height: 100%;
   }
   .quote {
     padding: 10px;
@@ -111,11 +109,8 @@ body {
   .main_page {
     background-image: url("https://i.gifer.com/OEcM.gif");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% 100%;
     align-items: center;
-    /* position: relative; */
-    height: 100%;
   }
 
   .quote {
@@ -167,6 +162,15 @@ img[src="photos/hub.jpg"] {
   left: 10%;
   width: 7%;
 }
+
+
+/* solar system section */
+
+/* #solar h1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+} */
 
 
 /* footer css */
