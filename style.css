@@ -166,18 +166,43 @@ img[src="photos/hub.jpg"] {
 
 /* solar system section */
 
-/* #solar h1 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-} */
+#solar h1 {
+    padding: 10px;
+    width: 30%;
+    height: 17%;
+    text-align:center;
+    position: relative;
+    left: 65%;
+    top: 50%;
+}
+#solar q {
+  display:inline-block;
+  padding: 10px;
+  width: 20%;
+  text-align:center;
+  position: relative;
+  left: 33%;
+  top: 40%;
+}
+#solar cite {
+  display:inline-block;
+  text-align:center;
+  position: relative;
+  left: 28%;
+  top: 40%;
+}
+#solar .discover_button {
+  position: relative;
+  left: 78%;
+  top: 50%;
+}
 
 
 /* footer css */
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#000000;
   padding:20px 0 20px;
   font-size:15px;
   line-height:24px;
