@@ -8,6 +8,10 @@ body {
 section {
   width:100%;
   height: 100vh;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
 }
 
   .section_header {
@@ -109,8 +113,6 @@ section {
   
   .main_page {
     background-image: url("https://i.gifer.com/OEcM.gif");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     align-items: center;
   }
 
@@ -147,8 +149,7 @@ section {
 
 #telescopes {
   background-image: url("photos/hubble.jpeg");
-  background-repeat: no-repeat;
-  background-size: contain, cover;
+
 }
 #telescopes-explore {
   text-align: left;
