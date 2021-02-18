@@ -16,7 +16,10 @@ section {
 
   .section_header {
     color: orange;
+    font-size: 200%;
+    padding-bottom: 8%;
   }
+
 
   #solar {
     background-image: url("photos/solar.jpg");
@@ -107,6 +110,9 @@ section {
     height: 20px;  
     transition: 0.3s;
     background: black;
+    position: relative;
+    align-self: center, baseline;
+    
   }
   .discover_button:hover {
     background: orange;
@@ -145,16 +151,44 @@ section {
     background: orange;
   }
 
+  /* stellar section */
+
 #stellar {
   background-image: url("https://www.wallpapertip.com/wmimgs/18-187237_data-src-black-hole-wallpaper-4k.jpg");
 }
 
+
+.stellar-container {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  align-items: left;
+}
+
+
+
+  /* telescopes section */
+
 #telescopes {
   background-image: url("photos/hubble.jpeg");
-
 }
-#telescopes-explore {
+
+#telescopes .telescopes-container {
+  position: absolute;
+  margin-left: 5%;
+  margin-bottom: 14%;
+  left: 0%;
+  bottom: 0%;
+  align-items: center;
+}
+.section-text {
   text-align: left;
+  font-size: large;
+  display:inline-block;
+  margin-bottom: 5%; 
+}
+.discover_button{
+  margin-top: 10%;
 }
 
 #stellar-explore {
@@ -201,12 +235,59 @@ img[src="photos/hub.jpg"] {
   top: 50%;
 }
 
+.solar-text {
+  position: relative;
+  text-align: right;
+  font-size: large;
+  display:inline-block;
+  margin-bottom: 5%; 
+}
+
+.solar-container {
+  position: absolute;
+  margin-right: 25%;
+  right: 3%;
+  bottom: 10%;
+  align-items: right;
+}
+
 
 /* rocket section */
 
 .rocket-text {
+  position: relative;
   text-align: left;
+  font-size: large;
+  display:inline-block;
+  margin-bottom: 5%; 
 }
+
+.rocket-container {
+  position: absolute;
+  margin-left: 5%;
+  margin-bottom: 14%;
+  left: 0%;
+  bottom: 50%;
+  align-items: center;
+}
+
+/* mars section */
+
+.mars-container {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  align-items: left;
+}
+
+.mars-text {
+  position: relative;
+  text-align: right;
+  height: 50%;
+  font-size: large;
+  margin-right: 50%;
+}
+
 
 /* Sign up section */
 
@@ -265,6 +346,7 @@ h3.section-title {
 
 
 /* Subscribe section */
+
 .subscribe-container {
   display: flex;
   flex-direction: row;
