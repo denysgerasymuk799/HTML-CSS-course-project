@@ -24,6 +24,9 @@ section {
 
   #rocket {
     background-image: url("./photos/starlink.jpg");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: center;
   }
 
   /* ddd */
@@ -32,8 +35,7 @@ section {
 	background-image: url("photos/mars.jpg");
   }
 
-  #mars h1
-  {
+  .quote {
     padding: 10px;
     width: 30%;
     height: 17%;
@@ -197,6 +199,80 @@ img[src="photos/hub.jpg"] {
   position: relative;
   left: 78%;
   top: 50%;
+}
+
+
+/* Sign up section */
+
+h3.section-title {
+  font-weight: normal;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  max-width: 970px;
+  margin: 10% auto 16px;
+}
+
+
+.sign-up-btn {
+  width: 240px;
+  max-width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding: 0 16px;
+  margin: 0;
+  border: none;
+  outline: none;
+  user-select: none;
+  transition-duration: 0.3s;
+  vertical-align: top;
+  text-decoration: none;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sign-up-btn.large {
+  font-size: 16px;
+  height: 64px;
+  line-height: 64px;
+  border-radius: 8px;
+}
+
+.sign-up-btn.gradient {
+  color: #e6e9ec;
+  background: linear-gradient(70deg,  #e67e22 0%,  #e67e22 100%,  #f0b27a 0%);
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-size: auto;
+  background-size: 162% auto;
+  background-position: 99%;
+}
+
+
+/* Subscribe section */
+.subscribe-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-input {
+  padding: 12px 27px 8px 3px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 
