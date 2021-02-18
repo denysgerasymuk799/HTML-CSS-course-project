@@ -25,10 +25,50 @@ section {
     background-position: center;
   }
 
+  /* ddd */
   #mars
   {
 	background-image: url("photos/mars.jpg");
   }
+
+  .quote {
+    padding: 10px;
+    width: 30%;
+    height: 17%;
+    text-align:center;
+    position: relative;
+    left: 50%;
+    top: 30%;
+  }
+
+  #mars q
+  {
+    display:inline-block;
+    padding: 10px;
+    width: 20%;
+    text-align:center;
+    position: relative;
+    left: 19%;
+    top: 20%;
+  }
+
+  #mars cite
+  {
+    display:inline-block;
+    text-align:center;
+    position: relative;
+    left: 10%;
+    top: 25%;
+  }
+
+  #mars .discover_button
+  {
+   position: relative;
+   left: 65%;
+   top: 30%;
+  }
+
+  /* ddd */
 
   .quote {
     padding: 10px;
@@ -42,47 +82,6 @@ section {
     text-align: right;
   }
 
-
-    .qmars {
-    padding: 10px;
-    width: 30%;
-    height: 17%;
-    text-align:center;
-    position: relative;
-    left: 20%;
-    top: 10%;
-    font-size: 170%;
-    text-align: right;
-  }
-
-
-    .cmars {
-    padding: 10px;
-    width: 30%;
-    height: 17%;
-    text-align:center;
-    position: relative;
-    left: 12%;
-    top: 15%;
-    font-size: 170%;
-    text-align: right;
-  }
-
-  .mdiscover_button {
-    border-radius: 25px;
-    position: relative;
-    border: 2px solid #FFFFFF;
-    padding: 5px;
-    width: 80px;
-    height: 20px;
-    transition: 0.3s;
-    background: black;
-    left: 58%;
-    top: 20%;
-  }
-  .mdiscover_button:hover {
-    background: orange;
-  }
 
   #space_hub {
     border: 2px solid #FFFFFF;
@@ -170,11 +169,36 @@ img[src="photos/hub.jpg"] {
 
 /* solar system section */
 
-/* #solar h1 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-} */
+#solar h1 {
+    padding: 10px;
+    width: 30%;
+    height: 17%;
+    text-align:center;
+    position: relative;
+    left: 65%;
+    top: 50%;
+}
+#solar q {
+  display:inline-block;
+  padding: 10px;
+  width: 20%;
+  text-align:center;
+  position: relative;
+  left: 33%;
+  top: 40%;
+}
+#solar cite {
+  display:inline-block;
+  text-align:center;
+  position: relative;
+  left: 28%;
+  top: 40%;
+}
+#solar .discover_button {
+  position: relative;
+  left: 78%;
+  top: 50%;
+}
 
 
 /* Sign up section */
@@ -255,7 +279,7 @@ h3.section-title {
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#000000;
   padding:20px 0 20px;
   font-size:15px;
   line-height:24px;
