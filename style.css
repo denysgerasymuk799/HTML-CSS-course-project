@@ -202,6 +202,12 @@ img[src="photos/hub.jpg"] {
 }
 
 
+/* rocket section */
+
+.rocket-text {
+  text-align: left;
+}
+
 /* Sign up section */
 
 h3.section-title {
