@@ -22,10 +22,52 @@ section {
     background-image: url("./photos/starlink.jpg");
   }
 
+  /* ddd */
   #mars
   {
 	background-image: url("photos/mars.jpg");
   }
+
+  #mars h1
+  {
+    padding: 10px;
+    width: 30%;
+    height: 17%;
+    text-align:center;
+    position: relative;
+    left: 50%;
+    top: 30%;
+  }
+
+  #mars q
+  {
+    display:inline-block;
+    padding: 10px;
+    width: 20%;
+    text-align:center;
+    position: relative;
+    left: 19%;
+    top: 20%;
+  }
+
+  #mars cite
+  {
+    display:inline-block;
+    text-align:center;
+    position: relative;
+    left: 10%;
+    top: 25%;
+  }
+
+  #mars .discover_button
+  {
+   position: relative;
+   left: 65%;
+   top: 30%;
+  }
+
+  /* ddd */
+
   .quote {
     padding: 10px;
     width: 30%;
@@ -38,47 +80,6 @@ section {
     text-align: right;
   }
 
-
-    .qmars {
-    padding: 10px;
-    width: 30%;
-    height: 17%;
-    text-align:center;
-    position: relative;
-    left: 20%;
-    top: 10%;
-    font-size: 170%;
-    text-align: right;
-  }
-
-
-    .cmars {
-    padding: 10px;
-    width: 30%;
-    height: 17%;
-    text-align:center;
-    position: relative;
-    left: 12%;
-    top: 15%;
-    font-size: 170%;
-    text-align: right;
-  }
-
-  .mdiscover_button {
-    border-radius: 25px;
-    position: relative;
-    border: 2px solid #FFFFFF;
-    padding: 5px;
-    width: 80px;
-    height: 20px;
-    transition: 0.3s;
-    background: black;
-    left: 58%;
-    top: 20%;
-  }
-  .mdiscover_button:hover {
-    background: orange;
-  }
 
   #space_hub {
     border: 2px solid #FFFFFF;
