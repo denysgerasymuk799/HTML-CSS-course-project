@@ -1,0 +1,57 @@
+body
+{
+    font-family: system-ui;
+    background: #000000;
+    color: white;
+    text-align: center;
+}
+
+
+section
+{
+    ...
+}
+
+
+section h1
+{
+    color: orange;
+    font-size: 200%;
+    padding-bottom: 8%;
+}
+
+
+
+.section-text
+{
+    text-align: left;
+    font-size: large;
+    display:inline-block;
+    margin-bottom: 5%;
+}
+
+
+.container
+{
+
+}
+
+.discover-button
+{
+    border-radius: 25px;
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    width: 80px;
+    display: block;
+    height: 20px;
+    transition: 0.3s;
+    background: #000000;
+    position: relative;
+    align-self: center, baseline;
+}
+
+
+
+.discover-button:hover {
+    background: #ffa500;
+}
