@@ -133,7 +133,7 @@ section h1
 /* telescopes section */
 
 /*#telescopes {*/
-/*    background-image: url("photos/satellites.jpeg");*/
+/*    background-image: url("img/satellites.jpeg");*/
 /*}*/
 
 
@@ -161,7 +161,7 @@ section h1
 /*    text-align: left;*/
 /*}*/
 
-/*img[src="photos/hub.jpg"] {*/
+/*img[src="img/hub.jpg"] {*/
 /*    position: absolute;*/
 /*    left: 10%;*/
 /*    width: 7%;*/
@@ -247,7 +247,7 @@ section h1
 /*
 #mars
 {
-    background-image: url("photos/mars.jpg");
+    background-image: url("img/mars.jpg");
 }
 
 #mars h1 {
