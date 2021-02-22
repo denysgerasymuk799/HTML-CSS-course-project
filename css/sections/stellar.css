@@ -28,11 +28,11 @@
 
 #stellar-theme ul {
     list-style-position: outside;
-    margin: 3vh 2vw 3vh 2vw;
+    margin: 3vh 0;
 }
 
 #stellar-theme ul li {
-    margin: 1vw
+    margin: 2.3vh 0;
 }
 #stellar-theme ul li::before {   
     content: '';   

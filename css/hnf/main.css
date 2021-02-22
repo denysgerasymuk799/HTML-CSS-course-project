@@ -1,0 +1,68 @@
+#main-page 
+{
+    background-image: url("../../img/night_sky.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+}
+
+#main-page h1 
+{
+    border: 4px solid #FFFFFF;
+    padding: 2vw;
+
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    transform:translate(-50%,-50%);
+    transition: font-size 0.3s;
+ }
+
+#main-page q 
+{
+    font-size: 1.5vw;
+    line-height: 5vh;
+    text-align:right;
+    
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    
+    transform:translate(-50%,-50%);
+    transition: font-size 0.3s;
+} 
+
+.start_journey 
+{
+    font-size: 1.5vw;
+    border-radius: 25px;
+    text-align: center;
+    background: #1b1b1b50;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+
+    /* border: 2px solid #FFFFFF; */
+    padding: 1.5vw;
+    /* width: 20%; */
+
+    transition: 0.3s;
+    transform:translate(-50%,-50%);
+
+}
+
+
+
+.start_journey:hover 
+{
+    background: #1b1b1b90;
+}
