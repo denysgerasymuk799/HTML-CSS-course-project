@@ -1,13 +1,17 @@
 header
 {
+    box-sizing: border-box;
+    margin: 0 2.5vw 0 2.5vw;
+    border: 0.3rem solid white;
     top: 0;
-    background: var(--l_gray);
+    background: black;
     display: grid;
-    grid-template-columns: 1fr 6fr 2fr;
-    width: 100vw;
-    height: 5vh;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 95vw;
+    height: 5.1vh;
     grid-gap: 1rem;
     position: fixed;
+    overflow: hidden;
 }
 
 
@@ -17,7 +21,7 @@ header nav
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    align-content: space-between;
+    /*align-content: space-between;*/
     text-align: center;
     box-sizing: border-box;
 }
@@ -25,34 +29,66 @@ header nav
 
 header nav a
 {
-
+    transition: 0.5s;
+    font-size: min(2rem, 2vh);
+    font-family: Kanit-Bold, sans-serif;
+    color: white;
+    text-decoration: none;
     box-sizing: inherit;
-    background: var(--ld_gray);
-    height: 4vh;
+    background: black;
+    height: min(4vh, 4vw);
     width: auto;
     text-align: center;
-    border-radius: 0.5rem;
-    border: 0.2rem solid var(--l_orange);
-    margin-top: 0.3rem;
-    padding: 0.5vh;
+    margin: 0.5vh 0 0.5vh 0;
+    padding: 0.5vh 0;
+}
 
 
+header nav a:hover
+{
+    color: orange;
 }
 
 
 header img
 {
-    height: 5vh;;
+    height: min(4.4vh, 4.4vw);
     width: auto;
+    opacity: 0.7;
 }
 
 header h1
 {
     text-align: center;
-    background:black;
 }
 
 header nav
 {
     grid-column: 2/3;
+}
+
+header button
+{
+    margin-top: 0.5vh;
+    width: 98%;
+    background: black;
+    color:white;
+    border: none;
+    height: min(3.5vh, 3.5vw);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+header button img
+{
+    display: inline-block;
+}
+
+header button span
+{
+    font-family: Kanit-Bold, sans-serif;
+    font-size: min(2rem, 2vh);
+    margin-bottom: 1rem;
+    display: inline-block;
 }
