@@ -37,7 +37,7 @@
 
     /*position: relative;*/
     /*right: -4rem;*/
-    /*margin-top: -1rem;*/
+
     align-self: center;
     justify-self: center;
 
@@ -73,3 +73,75 @@
 {
     background: #1b1b1b90;
 }
+
+
+/* ========================== subscribe section ========================== */
+
+#subscribe .container
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 99vw;
+    height: 40vh;
+    overflow: hidden;
+    grid-gap: 1rem;
+}
+
+
+#subscribe .section-text
+{
+    --sct_c_begin: 1;
+    --sct_c_end: 4;
+
+    --sct_r_begin: 3;
+    --sct_r_end: 3;
+}
+
+/*#subscribe .container*/
+/*{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+
+/*    margin: 0 auto;*/
+/*    width: calc(100% - 15px * 2);*/
+/*    max-width: calc(1200px - 30px);*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*#subscribe .email-input*/
+/*{*/
+/*    box-sizing: inherit;*/
+/*}*/
+
+
+/*#subscribe .btn {*/
+/*    width: 240px;*/
+/*    max-width: 100%;*/
+/*    display: inline-block;*/
+/*    box-sizing: border-box;*/
+/*    !*background-color: transparent;*!*/
+/*    background-color: white;*/
+/*    text-transform: uppercase;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    font-weight: 700;*/
+/*    padding: 0 16px;*/
+/*    margin: 0;*/
+/*    margin-top: 0px;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    user-select: none;*/
+/*    transition-duration: 0.3s;*/
+/*    vertical-align: top;*/
+/*    text-decoration: none;*/
+/*    text-align: center;*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*    white-space: nowrap;*/
+/*    font-size: 14px;*/
+/*    cursor: pointer;*/
+/*}*/
