@@ -1,14 +1,14 @@
 #rocket-theme
 {
-    background: url("../../img/rocket.jpg");
+    background: url("../../../img/rocket.jpg");
     background-size: cover;
 }
 
 
 #rocket-theme .discover-button
 {
-    --btn_c_begin: 4;
-    --btn_c_end: 6;
+    --btn_c_begin: 2;
+    --btn_c_end: 4;
 
     --btn_r_begin: 3;
     --btn_r_end: 3;
@@ -17,8 +17,8 @@
 
 #rocket-theme .section-text
 {
-    --sct_c_begin: 4;
-    --sct_c_end: 6;
+    --sct_c_begin: 2;
+    --sct_c_end: 5;
 
     --sct_r_begin: 2;
     --sct_r_end: 2;

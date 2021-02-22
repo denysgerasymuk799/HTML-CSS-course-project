@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "shared.css";
-@import "sections/sections.css";
+@import "main_page/sections/sections.css";
+@import "main_page/sign_up_and_subscribe.css";
 @import "hnf/hnf.css";
 @import "hnf/main.css";
 

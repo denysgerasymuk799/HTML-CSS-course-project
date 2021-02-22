@@ -1,6 +1,6 @@
 #stellar-theme
 {
-    background: url("../../img/stellar.jpg");
+    background: url("../../../img/stellar.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,13 +34,14 @@
 #stellar-theme ul li {
     margin: 2.3vh 0;
 }
+
 #stellar-theme ul li::before {   
     content: '';   
     display: inline-block;   
     height: 1rem;   
     width: 1rem;    
     background-size: 40px;   
-    background-image: url("../../img/list/right_arrow_white.png");
+    background-image: url("../../../img/list/right_arrow_white.png");
     background-repeat: no-repeat;   
     margin-right: 0.625rem;
     background-position: center center;

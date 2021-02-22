@@ -1,0 +1,75 @@
+#sign-up .container
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 99vw;
+    height: 40vh;
+    overflow: hidden;
+    grid-gap: 1rem;
+}
+
+#sign-up .section-text
+{
+    --sct_c_begin: 4;
+    --sct_c_end: 10;
+
+    --sct_r_begin: 2;
+    --sct_r_end: 2;
+
+    text-align: center;
+}
+
+#sign-up p
+{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+#sign-up .discover-button
+{
+    --btn_c_begin: 6;
+    --btn_c_end: 8;
+
+    --btn_r_begin: 6;
+    --btn_r_end: 6;
+
+    /*position: relative;*/
+    /*right: -4rem;*/
+    /*margin-top: -1rem;*/
+    align-self: center;
+    justify-self: center;
+
+    margin-top: -14%;
+
+    text-decoration: none;
+    color: #FFFF;
+}
+
+
+.sign-up-button
+{
+    font-size: 1vw;
+    border-radius: 25px;
+    text-align: center;
+    background: #1b1b1b50;
+    color: white;
+
+    /*position: relative;*/
+    /*top: 15rem;*/
+    /*left: 30rem;*/
+
+    /*!* border: 2px solid #FFFFFF; *!*/
+    padding: 1.5vw;
+    /*!* width: 20%; *!*/
+
+    /*transition: 0.3s;*/
+    /*transform:translate(-50%,-50%);*/
+
+}
+
+.sign-up-button:hover
+{
+    background: #1b1b1b90;
+}
