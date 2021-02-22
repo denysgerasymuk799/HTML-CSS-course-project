@@ -54,7 +54,7 @@ header img
 {
     height: min(4.4vh, 4.4vw);
     width: auto;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 header h1

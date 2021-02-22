@@ -46,6 +46,7 @@
     border-radius: 25px;
     text-align: center;
     background: #1b1b1b50;
+    color: white;
 
     position: absolute;
     top: 80%;
@@ -60,9 +61,19 @@
 
 }
 
-
-
 .start_journey:hover 
 {
     background: #1b1b1b90;
+}
+
+#main-page div a:link
+{
+    color: white;
+    text-decoration: none;
+}
+
+#main-page div a:visited
+{
+    color: white;
+    text-decoration: none;
 }
