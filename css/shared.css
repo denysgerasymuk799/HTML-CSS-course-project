@@ -1,0 +1,103 @@
+:root
+{
+    --l_orange: #ffa31a;
+    --l_black:  #1b1b1b;
+    --l_gray:   #808080;
+    --ld_gray:  #292929;
+}
+
+
+@font-face
+{
+    font-family: 'NotoSansJP-Medium';
+    src: url('../font/NotoSansJP-Medium.otf');
+}
+
+
+@font-face
+{
+    font-family: 'Kanit-Bold';
+    src: url('../font/Kanit-Bold.ttf');
+}
+
+
+html
+{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+body
+{
+    font-family: 'NotoSansJP-Medium', sans-serif;
+    color: white;
+}
+
+
+section h1
+{
+    font-family: 'Kanit-Bold', sans-serif;
+    color: var(--l_orange);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+
+section
+{
+    background: black;
+}
+
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 99vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-gap: 1rem;
+}
+
+
+.container .section-text
+{
+    grid-column: var(--sct_c_begin, 7)/var(--sct_c_end, 11);
+    grid-row: var(--sct_r_begin, 2)/var(--sct_r_end, 4);
+}
+
+
+.container .discover-button
+{
+    grid-column: var(--btn_c_begin, 5)/var(--btn_c_end, 7);
+    grid-row: var(--btn_r_begin, 3)/var(--btn_r_end, 3);
+}
+
+
+.discover-button
+{
+    display: inline-block;
+    background: var(--l_black);
+
+    width: 6rem;
+    height: 1.3rem;
+    padding: 0.5rem;
+
+    border: 0.2rem solid var(--l_gray);;
+    border-radius: 2rem;
+
+    text-align: center;
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+
+.discover-button:hover
+{
+    background: var(--l_orange);
+    color: var(--l_black);
+}

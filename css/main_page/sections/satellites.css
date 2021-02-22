@@ -1,0 +1,28 @@
+#satellites-theme
+{
+    background: url("../../../img/satellites.jpeg");
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-color: black;
+}
+
+
+#satellites-theme .discover-button
+{
+    --btn_c_begin: 8;
+    --btn_c_end: 11;
+
+    --btn_r_begin: 4;
+    --btn_r_end: 4;
+}
+
+
+#satellites-theme .section-text
+{
+    --sct_c_begin: 8;
+    --sct_c_end: 11;
+
+    --sct_r_begin: 3;
+    --sct_r_end: 3;
+}

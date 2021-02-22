@@ -1,0 +1,25 @@
+#mars-theme
+{
+    background: url("../../../img/mars.png");
+    background-size: cover;
+}
+
+
+#mars-theme .discover-button
+{
+    --btn_c_begin: 8;
+    --btn_c_end: 9;
+
+    --btn_r_begin: 3;
+    --btn_r_end: 3;
+}
+
+
+#mars-theme .section-text
+{
+    --sct_c_begin: 8;
+    --sct_c_end: 11;
+
+    --sct_r_begin: 2;
+    --sct_r_end: 2;
+}
