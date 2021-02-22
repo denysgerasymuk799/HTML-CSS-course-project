@@ -9,7 +9,7 @@
 
 @font-face
 {
-    font-family: 'NotoSansJP-Medium.';
+    font-family: 'NotoSansJP-Medium';
     src: url('../font/NotoSansJP-Medium.otf');
 }
 
@@ -29,7 +29,7 @@ html
 
 body
 {
-    font-family: 'NotoSansJP-Medium.', sans-serif;
+    font-family: 'NotoSansJP-Medium', sans-serif;
     background: var(--l_black);
     color: white;
 }
