@@ -1,13 +1,14 @@
 header
 {
     box-sizing: border-box;
-    margin: 0 2.5vw 0 2.5vw;
-    border: 0.3rem solid white;
+    border: 0.1rem solid white;
     top: 0;
+    border-left: none;
+    border-right: none;
     background: black;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    width: 95vw;
+    grid-template-columns: 1fr 5fr 1fr 0.2fr;
+    width: 100vw;
     height: 5.1vh;
     grid-gap: 1rem;
     position: fixed;
@@ -21,7 +22,6 @@ header nav
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    /*align-content: space-between;*/
     text-align: center;
     box-sizing: border-box;
 }
@@ -40,7 +40,7 @@ header nav a
     width: auto;
     text-align: center;
     margin: 0.5vh 0 0.5vh 0;
-    padding: 0.5vh 0;
+    padding: max(0.5vh, 0.5vw) 0;
 }
 
 
@@ -54,7 +54,6 @@ header img
 {
     height: min(4.4vh, 4.4vw);
     width: auto;
-    /* opacity: 0.7; */
 }
 
 header h1
@@ -70,7 +69,7 @@ header nav
 header button
 {
     margin-top: 0.5vh;
-    width: 98%;
+    width: 90%;
     background: black;
     color:white;
     border: none;

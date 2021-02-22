@@ -60,9 +60,9 @@ section
 .container
 {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    width: 100vw;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 99vw;
     height: 100vh;
     overflow: hidden;
     grid-gap: 1rem;
@@ -71,8 +71,8 @@ section
 
 .container .section-text
 {
-    grid-column: var(--sct_c_begin, 5)/var(--sct_c_end, 7);
-    grid-row: var(--sct_r_begin, 2)/var(--sct_r_end, 2);
+    grid-column: var(--sct_c_begin, 7)/var(--sct_c_end, 11);
+    grid-row: var(--sct_r_begin, 2)/var(--sct_r_end, 4);
 }
 
 
