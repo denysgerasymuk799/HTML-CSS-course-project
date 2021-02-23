@@ -80,22 +80,45 @@
 #subscribe .container
 {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(5, 1fr);
     width: 99vw;
     height: 40vh;
     overflow: hidden;
     grid-gap: 1rem;
+
+    background: linear-gradient(to right, #f39c12,   #d35400);
+}
+
+#subscribe .container .email-input
+{
+    grid-column: var(--email_inp_c_begin, 5)/var(--email_inp_c_end, 8);
+    grid-row: var(--email_r_begin, 3)/var(--email_r_end, 3);
+
+    --email_inp_c_begin: 6;
+    --email_inp_c_end: 8;
+
+    --email_r_begin: 3;
+    --email_r_end: 3;
+
+    align-self: center;
+    justify-self: center;
 }
 
 
 #subscribe .section-text
 {
     --sct_c_begin: 1;
-    --sct_c_end: 4;
+    --sct_c_end: 6;
 
     --sct_r_begin: 3;
     --sct_r_end: 3;
+    text-align: center;
+
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 2rem;
 }
 
 /*#subscribe .container*/
