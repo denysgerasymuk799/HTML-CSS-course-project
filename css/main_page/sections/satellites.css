@@ -26,3 +26,14 @@
     --sct_r_begin: 3;
     --sct_r_end: 3;
 }
+
+
+#satellites-theme ul li {
+    padding-left: 2.4rem;
+    background-size: 2.5rem;
+    margin: 1rem;
+    height: 3rem;
+    background-image: url("../../../img/list/right_arrow_white.png");
+    background-repeat: no-repeat;   
+    background-position: 0 0;
+}
