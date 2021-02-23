@@ -103,8 +103,36 @@
 
     align-self: center;
     justify-self: center;
+
+    background-position-x: 0%;
+    background-position-y: 0%;
+    /*background-size: auto;*/
+    background: url(https://qravity.com/static/media/img-btn-scheme-2.66918e52.png) center center;
+    background-size: 100% 100%;
+    content: '';
+    /*position: absolute;*/
+    /*left: -25px;*/
+    /*right: -25px;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*z-index: 0;*/
+    height: 250%;
+    width: 130%;
 }
 
+#subscribe .sign-up-wrapper
+{
+    --email_inp_c_begin: 7;
+    --email_inp_c_end: 8;
+
+    --email_r_begin: 3;
+    --email_r_end: 4;
+
+    /*display: inline-block;*/
+    /*align-self: center;*/
+    /*justify-self: center;*/
+    text-align: center;
+}
 
 #subscribe .section-text
 {

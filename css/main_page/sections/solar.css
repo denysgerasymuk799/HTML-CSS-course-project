@@ -7,7 +7,7 @@
 
 #solar-theme .discover-button
 {
-    --btn_c_begin: 9;
+    --btn_c_begin: 8;
     --btn_c_end: 11;
 
     --btn_r_begin: 3;
@@ -17,7 +17,7 @@
 
 #solar-theme .section-text
 {
-    --sct_c_begin: 9;
+    --sct_c_begin: 8;
     --sct_c_end: 11;
 
     --sct_r_begin: 2;
