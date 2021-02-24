@@ -23,3 +23,25 @@
     --sct_r_begin: 2;
     --sct_r_end: 2;
 }
+
+#mars-theme ul {
+    list-style-position: outside;
+    margin: 3vh 0;
+}
+
+#mars-theme ul li {
+    margin: 2.3vh 0;
+}
+
+#mars-theme ul li::before {
+    content: '';
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-size: 3rem;
+    background-image: url("../../../img/list/right_arrow_white.png");
+    background-repeat: no-repeat;
+    margin-right: 0.625rem;
+    background-position: center center;
+    vertical-align: middle;
+}
