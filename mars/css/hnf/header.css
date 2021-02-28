@@ -1,0 +1,93 @@
+header
+{
+    box-sizing: border-box;
+    border: 0.1rem solid white;
+    top: 0;
+    border-left: none;
+    border-right: none;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 0.2fr;
+    width: 100vw;
+    height: 5.1vh;
+    grid-gap: 1rem;
+    position: fixed;
+    overflow: hidden;
+}
+
+
+header nav
+{
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+header nav a
+{
+    transition: 0.5s;
+    font-size: min(2rem, 2vh);
+    font-family: Kanit-Bold, sans-serif;
+    color: white;
+    text-decoration: none;
+    box-sizing: inherit;
+    background: black;
+    height: min(4vh, 4vw);
+    width: auto;
+    text-align: center;
+    margin: 0.5vh 0 0.5vh 0;
+    padding: max(0.5vh, 0.5vw) 0;
+}
+
+
+header nav a:hover
+{
+    color: orange;
+}
+
+
+header img
+{
+    height: min(4.4vh, 4.4vw);
+    width: auto;
+}
+
+header h1
+{
+    text-align: center;
+}
+
+header nav
+{
+    grid-column: 2/3;
+}
+
+header button
+{
+    margin-top: 0.5vh;
+    width: 90%;
+    background: black;
+    color:white;
+    border: none;
+    height: min(3.5vh, 3.5vw);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+header button img
+{
+    display: inline-block;
+}
+
+header button span
+{
+    font-family: Kanit-Bold, sans-serif;
+    font-size: min(2rem, 2vh);
+    margin-bottom: 1rem;
+    display: inline-block;
+}

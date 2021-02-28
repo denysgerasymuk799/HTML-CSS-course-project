@@ -1,0 +1,87 @@
+#main-page 
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    width: 99vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-gap: 1rem;
+
+    background-image: url("../../img/night_sky.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#h1-container {
+    grid-column: 5/9;
+    grid-row: 5/8;
+    align-items: center;
+}
+
+#h1-container h1 
+{
+    border: 4px solid white;
+    padding: 1.54vw;
+    background: #1b1b1b50;
+
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+
+    transition: font-size 0.3s;
+}
+
+#main-page q span
+{
+    color: #ffa31a;
+}
+
+#main-page q 
+{
+    font-size: 1.5vw;
+    line-height: 5vh;
+    text-align:right;
+    
+    grid-column: 5/9;
+    grid-row: 8/9;
+
+    transition: font-size 0.3s;
+} 
+
+.start_journey 
+{
+    font-size: 1.5vw;
+    border-radius: 25px;
+    text-align: center;
+    background: #1b1b1b50;
+    color: white;
+
+    padding: 1.5vw;
+    height: 1.5vw;    
+
+    grid-column: 5/9;
+    grid-row: 10/11;
+
+    transition: 0.3s;
+}
+
+.start_journey:hover 
+{
+    background: #1b1b1b90;
+}
+
+#main-page div a:link
+{
+    color: white;
+    text-decoration: none;
+}
+
+#main-page div a:visited
+{
+    color: white;
+    text-decoration: none;
+}
