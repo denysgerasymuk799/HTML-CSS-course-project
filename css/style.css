@@ -5,4 +5,12 @@
 @import "hnf/hnf.css";
 @import "hnf/main.css";
 
+html {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
 
+.snap-container section {
+  scroll-snap-align: start;
+}
