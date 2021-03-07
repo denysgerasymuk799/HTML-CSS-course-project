@@ -1,57 +1,65 @@
 $(document).ready(function() {
     $("#mercury-area").mouseover(function() {
-        $("#mercury").show("medium");
+        $("#mercury").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#mercury-area").mouseout(function() {
-        $("#mercury").hide("medium");
+        $("#mercury").fadeOut();
     });
 
     $("#venus-area").mouseover(function() {
-        $("#venus").show("medium");
+        $("#venus").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#venus-area").mouseout(function() {
-        $("#venus").hide("medium");
+        $("#venus").fadeOut();
     });
 
     $("#earth-area").mouseover(function() {
-        $("#earth").show("medium");
+        $("#earth").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#earth-area").mouseout(function() {
-        $("#earth").hide("medium");
+        $("#earth").fadeOut();
     });
 
     $("#mars-area").mouseover(function() {
-        $("#mars").show("medium");
+        $("#mars").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#mars-area").mouseout(function() {
-        $("#mars").hide("medium");
+        $("#mars").fadeOut();
     });
 
     $("#jupiter-area").mouseover(function() {
-        $("#jupiter").show("medium");
+        $("#jupiter").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#jupiter-area").mouseout(function() {
-        $("#jupiter").hide("medium");
+        $("#jupiter").fadeOut();
     });
 
     $("#saturn-area").mouseover(function() {
-        $("#saturn").show("medium");
+        $("#saturn").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#saturn-area").mouseout(function() {
-        $("#saturn").hide("medium");
+        $("#saturn").fadeOut();
     });
 
     $("#uranus-area").mouseover(function() {
-        $("#uranus").show("medium");
+        $("#uranus").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#uranus-area").mouseout(function() {
-        $("#uranus").hide("medium");
+        $("#uranus").fadeOut();
     });
 
     $("#neptune-area").mouseover(function() {
-        $("#neptune").show("medium");
+        $("#neptune").fadeIn();
+        $("#tech-info").css('opacity', '0');
     });
     $("#neptune-area").mouseout(function() {
-        $("#neptune").hide("medium");
+        $("#neptune").fadeOut();
     });
 })

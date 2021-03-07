@@ -38,7 +38,7 @@ body
     color: white;
 }
 
-section h1
+section h1,h2
 {
     font-family: 'Kanit-Bold', sans-serif;
     color: var(--l_orange);
@@ -85,14 +85,15 @@ section > div
 {
     background: url("../../img/solar/welcome-space.jpg");
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #welcome div
 {
-    grid-row-start: 6;
-    grid-column-start: 6;
-    grid-row-end: 8;
-    grid-column-end: 9;
     text-align: center;
+    padding: 4rem;
+    width: 30rem;
 }
 #welcome div h1
 {
@@ -105,7 +106,16 @@ section > div
     background-color: black;
     background-size: cover;
 }
-
+#tech-info
+{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
 #areas
 {
     list-style: none;
@@ -120,6 +130,12 @@ section > div
     position: relative;
     border-radius: 100rem;
     vertical-align: middle;
+}
+#areas li a
+{
+    display: block;
+    width: inherit;
+    height: inherit;
 }
 #mercury-area
 {
@@ -169,10 +185,46 @@ section > div
     height: 6.5rem;
     left: 48.5rem;
 }
+#popups
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10rem;
+}
 
 .popup-infobox{
     display: none;
-    position: inline-block;
+    border-radius: 1.5rem;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 1rem;
     text-align: center;
     transition: 0.3s;
+    width: 30rem;
+}
+
+
+
+.content-section
+{
+    background: url("../../img/solar/stars.jpg");
+    background-size: cover;
+    /* display: flex; */
+    align-items: center;
+}
+.content-section ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-section img
+{
+    width: 50rem;
+}
+.content-section p
+{
+    width: 30rem;
 }
