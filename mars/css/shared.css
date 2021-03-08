@@ -1,0 +1,75 @@
+:root
+{
+    --l_orange: #ffa31a;
+    --l_black:  #1b1b1b;
+    --l_gray:   #808080;
+    --ld_gray:  #292929;
+}
+
+
+@font-face
+{
+    font-family: 'NotoSansJP-Medium';
+    src: url('../../font/NotoSansJP-Medium.otf');
+}
+
+
+@font-face
+{
+    font-family: 'Kanit-Bold';
+    src: url('../../font/Kanit-Bold.ttf');
+}
+
+
+html
+{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+body
+{
+    font-family: 'NotoSansJP-Medium', sans-serif;
+    color: white;
+}
+
+main
+{
+    margin: 0;
+    padding:0;
+}
+
+
+section h1
+{
+    font-family: 'Kanit-Bold', sans-serif;
+    color: var(--l_orange);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+
+section
+{
+    background: black;
+    height:100vh;
+    width: 100vw;
+    padding: 60px;
+    padding-left: 120px;
+    box-sizing:border-box;
+}
+
+
+.section-text p, li
+{
+    font-size: 1.2rem;
+    line-height: 130%;
+}
+
+.mars-main h1
+{
+    font-size: 20rem;
+}
