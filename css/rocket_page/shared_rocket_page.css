@@ -1,0 +1,134 @@
+#main-rocket-page article {
+    /*background: black;*/
+    background-image: url("../../img/rocket_page_imgs/dark-starry-sky-night-sky-star.jpg");
+}
+
+#main-rocket-page article p {
+    padding-top: 1rem;
+    text-indent: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#main-rocket-page article h1 {
+    font-family: 'Kanit-Bold', sans-serif;
+    color: var(--l_orange);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+
+#main-rocket-page .section-text-left {
+    grid-column: 2/6;
+    grid-row: 2/12;
+}
+
+
+#main-rocket-page .article-img-left {
+    /*display: none;*/
+    align-self: center;
+    justify-self: center;
+
+    grid-column: 2/6;
+    grid-row: 2/12;
+}
+
+#main-rocket-page .article-img-right {
+    align-self: center;
+    justify-self: center;
+
+    grid-column: 7/12;
+    grid-row: 1/12;
+}
+
+#main-rocket-page .article-img-right img {
+    width: 40rem;
+    height: 25rem;
+}
+
+#main-rocket-page .video-capture-left {
+    position: relative;
+    top: -40rem;
+    left: 5rem;
+}
+
+#main-rocket-page .overview {
+    background-image: none;
+    height: 100vh;
+}
+
+#main-rocket-page video {
+    object-fit: cover;
+    width: 99vw;
+    height: 100vh;
+}
+
+#main-rocket-page table {
+    /*width: 100%;*/
+    /*margin-top: 30px;*/
+
+    /*border-collapse: collapse;*/
+    /*border-spacing: 0;*/
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-family: sans-serif;
+    width: 70vh;
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);*/
+}
+
+#main-rocket-page tbody tr {
+    /*background-color: #009879;*/
+    text-align: left;
+
+    border-bottom: 0.1rem solid grey;
+}
+
+#main-rocket-page td {
+    font-family: "NotoSansJP-Medium", serif;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+}
+
+#main-rocket-page table.data td:first-child {
+    text-align: left;
+}
+
+#main-rocket-page table.data td {
+    text-align: right;
+}
+
+
+#main-rocket-page table.data td span {
+    color: #95a5a6;
+}
+
+#main-rocket-page .video-capture-left h3 {
+    font-family: 'Kanit-Bold', sans-serif;
+    color: var(--l_orange);
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+#main-rocket-page .video-capture-left h2 {
+    font-family: 'Kanit-Bold', sans-serif;
+    color: var(--l_orange);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+/*#main-rocket-page tbody tr:nth-of-type(even) {*/
+/*    background-color: #f3f3f3;*/
+/*}*/
+
+
+#main-rocket-page .video-capture-left h3, h2 {
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}

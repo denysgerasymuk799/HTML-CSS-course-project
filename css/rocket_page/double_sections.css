@@ -1,0 +1,80 @@
+
+/* ================ #falcon-heavy ================ */
+
+#falcon-heavy {
+    background-image: none;
+}
+
+#falcon-heavy .images {
+    display: flex;
+}
+
+#falcon-heavy .left-img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-gap: 1rem;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+    url("../../img/rocket_page_imgs/falcon_heavy_maiden.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#falcon-heavy .right-img {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    width: 50vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-gap: 1rem;
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+    url("../../img/rocket_page_imgs/falcon_rocket_landing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#falcon-heavy .left-img .text-container {
+    grid-column: 1/9;
+    grid-row: 2/12;
+}
+
+#falcon-heavy .text-container h2 {
+    font-family: 'Kanit-Bold', sans-serif;
+    color: var(--l_orange);
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+#falcon-heavy .text-container p {
+    font-family: "NotoSansJP-Medium", serif;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+
+    text-indent: 2rem;
+    text-justify: inter-word;
+}
+
+#falcon-heavy .left-img .text-container {
+    padding-left: 10%;
+    padding-right: 4%;
+}
+
+
+#falcon-heavy .right-img .text-container {
+    grid-column: 5/12;
+    grid-row: 2/12;
+
+    padding-left: 5%;
+}
