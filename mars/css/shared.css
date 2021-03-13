@@ -45,7 +45,7 @@ main
 section h1
 {
     font-family: 'Kanit-Bold', sans-serif;
-    color: var(--l_orange);
+    color: white;
     padding-bottom: 1rem;
     font-size: 3rem;
     margin-top: 2rem;
@@ -63,13 +63,34 @@ section
 }
 
 
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 99vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-gap: 1rem;
+}
+
+
+.container .section-text
+{
+    grid-column: var(--sct_c_begin, 7)/var(--sct_c_end, 11);
+    grid-row: var(--sct_r_begin, 2)/var(--sct_r_end, 4);
+}
+
+
+.container .discover-button
+{
+    grid-column: var(--btn_c_begin, 5)/var(--btn_c_end, 7);
+    grid-row: var(--btn_r_begin, 3)/var(--btn_r_end, 3);
+}
+
+
 .section-text p, li
 {
     font-size: 1.2rem;
     line-height: 130%;
-}
-
-.mars-main h1
-{
-    font-size: 20rem;
 }

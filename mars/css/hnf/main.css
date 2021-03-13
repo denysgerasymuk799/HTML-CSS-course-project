@@ -1,87 +1,58 @@
-#main-page 
+.fl
 {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    font-size: 12vw;
+    grid-column: 1/5;
+    grid-row: 3/6;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
 
-    width: 99vw;
-    height: 100vh;
+.sl
+{
+    font-size: 9vw;
+    grid-column: 4/12;
+    grid-row: 7/10;
+}
+
+.fl, .sl
+{
+    font-family: 'Kanit-Bold', sans-serif;
+    color: var(--l_orange);
     overflow: hidden;
-    grid-gap: 1rem;
+}
 
-    background-image: url("../../img/night_sky.jpg");
+#mars-main
+{
+    background-image: url("../../img/m6.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
 }
 
-#h1-container {
-    grid-column: 5/9;
-    grid-row: 5/8;
-    align-items: center;
+
+#mars-precondition
+{
+    background-image: url("../../img/mplant.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
-#h1-container h1 
+
+#mars-progress
 {
-    border: 4px solid white;
-    padding: 1.54vw;
-    background: #1b1b1b50;
-
-    font-size: 6vw;
-    color: white;
-    text-align: center;
-    font-weight: 200;
-
-    transition: font-size 0.3s;
+    background-image: url("../../img/m4.jpg");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
 }
 
-#main-page q span
+
+#mars-spaceX
 {
-    color: #ffa31a;
-}
-
-#main-page q 
-{
-    font-size: 1.5vw;
-    line-height: 5vh;
-    text-align:right;
-    
-    grid-column: 5/9;
-    grid-row: 8/9;
-
-    transition: font-size 0.3s;
-} 
-
-.start_journey 
-{
-    font-size: 1.5vw;
-    border-radius: 25px;
-    text-align: center;
-    background: #1b1b1b50;
-    color: white;
-
-    padding: 1.5vw;
-    height: 1.5vw;    
-
-    grid-column: 5/9;
-    grid-row: 10/11;
-
-    transition: 0.3s;
-}
-
-.start_journey:hover 
-{
-    background: #1b1b1b90;
-}
-
-#main-page div a:link
-{
-    color: white;
-    text-decoration: none;
-}
-
-#main-page div a:visited
-{
-    color: white;
-    text-decoration: none;
+    background-image: url("../../img/m3.png");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
 }
