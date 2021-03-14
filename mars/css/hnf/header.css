@@ -1,93 +1,83 @@
 header
 {
-    box-sizing: border-box;
-    border: 0.1rem solid white;
-    top: 0;
-    border-left: none;
-    border-right: none;
-    background: black;
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr 0.2fr;
-    width: 100vw;
-    height: 5.1vh;
-    grid-gap: 1rem;
-    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: transparent;
     overflow: hidden;
-}
-
-
-header nav
-{
+    position: fixed;
     top: 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    text-align: center;
-    box-sizing: border-box;
+    width: 100%;
+    height: 4rem;
+    transition: top 0.3s;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:after
+{
+    background: none repeat scroll 0 0 #ffa31a;
+    margin-top: 1rem;
+    content: "";
+    display: block;
+    height: 0.175rem;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 }
 
 
-header nav a
+header a:hover:after
 {
-    transition: 0.5s;
-    font-size: min(2rem, 2vh);
-    font-family: Kanit-Bold, sans-serif;
-    color: white;
+    width: 100%;
+    left: 0;
+}
+
+
+header a
+{
+
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
     text-decoration: none;
-    box-sizing: inherit;
-    background: black;
-    height: min(4vh, 4vw);
-    width: auto;
-    text-align: center;
-    margin: 0.5vh 0 0.5vh 0;
-    padding: max(0.5vh, 0.5vw) 0;
-}
+    letter-spacing: 0.15em;
 
-
-header nav a:hover
-{
-    color: orange;
-}
-
-
-header img
-{
-    height: min(4.4vh, 4.4vw);
-    width: auto;
-}
-
-header h1
-{
-    text-align: center;
-}
-
-header nav
-{
-    grid-column: 2/3;
 }
 
 header button
 {
-    margin-top: 0.5vh;
-    width: 90%;
-    background: black;
-    color:white;
+    background-color: transparent;
+    padding: 0;
     border: none;
-    height: min(3.5vh, 3.5vw);
+    display: inline-block;
+}
+
+header button img:hover
+{
+    background-size: 20%;
+    background: #ffa31a;
+    border: 0 solid transparent;
+    border-radius: 100%;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
 }
 
 header button img
 {
+    width: 2.3vw;
     display: inline-block;
 }
 
-header button span
-{
-    font-family: Kanit-Bold, sans-serif;
-    font-size: min(2rem, 2vh);
-    margin-bottom: 1rem;
-    display: inline-block;
+header img {
+    width: 10vw;
+
 }
