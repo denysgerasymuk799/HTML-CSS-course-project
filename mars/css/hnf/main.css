@@ -1,0 +1,83 @@
+#mars-main .container
+{
+    grid-column: 4/10;
+    grid-row: 4/8;
+    display: flex;
+    font-family: 'Kanit-Bold', sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container h1
+{
+    font-size: min(7vw, 7vh);
+}
+
+#mars-main
+{
+    background-image: url("../../img/main.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+#mars-precondition
+{
+    background-image: url("../../img/marssss.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#mars-precondition .container
+{
+    font-size: min(9vw, 12vh);
+    grid-column: 3/10;
+    grid-row: 5/12;
+}
+
+.container p
+{
+    font-family: 'NotoSansJP-Medium', sans-serif;
+    font-size: min(2vw, 2vh);
+    background: linear-gradient(45deg,
+                black,
+                rgba(255, 0,0, 0.5),
+                rgba(0, 0, 255, 0.8),
+                rgba(0, 0, 0, 0.5));
+
+    border: 0 solid transparent;
+    border-radius: 10px;
+    size: auto;
+    padding: 20px;
+}
+
+#mars-progress
+{
+    background-image: url("../../img/m4.jpg");
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#mars-progress .container
+{
+    grid-column: 7/11;
+    grid-row: 2/5;
+}
+
+#mars-spaceX
+{
+    background-image: url("../../img/musk.jpg");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+#mars-spaceX .container
+{
+    grid-column: 2/6;
+    grid-row: 1/3;
+}

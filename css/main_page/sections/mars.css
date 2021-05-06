@@ -7,6 +7,8 @@
 
 #mars-theme .discover-button
 {
+    text-decoration: none;
+    color: white;
     --btn_c_begin: 8;
     --btn_c_end: 9;
 
