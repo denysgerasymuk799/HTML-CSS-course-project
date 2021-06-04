@@ -5,6 +5,7 @@ $(document).ready(function() {
     });
     $("#mercury-area").mouseout(function() {
         $("#mercury").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 
     $("#venus-area").mouseover(function() {
@@ -13,6 +14,7 @@ $(document).ready(function() {
     });
     $("#venus-area").mouseout(function() {
         $("#venus").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 
     $("#earth-area").mouseover(function() {
@@ -21,6 +23,7 @@ $(document).ready(function() {
     });
     $("#earth-area").mouseout(function() {
         $("#earth").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 
     $("#mars-area").mouseover(function() {
@@ -29,6 +32,7 @@ $(document).ready(function() {
     });
     $("#mars-area").mouseout(function() {
         $("#mars").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 
     $("#jupiter-area").mouseover(function() {
@@ -37,6 +41,7 @@ $(document).ready(function() {
     });
     $("#jupiter-area").mouseout(function() {
         $("#jupiter").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 
     $("#saturn-area").mouseover(function() {
@@ -45,6 +50,7 @@ $(document).ready(function() {
     });
     $("#saturn-area").mouseout(function() {
         $("#saturn").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 
     $("#uranus-area").mouseover(function() {
@@ -53,6 +59,7 @@ $(document).ready(function() {
     });
     $("#uranus-area").mouseout(function() {
         $("#uranus").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 
     $("#neptune-area").mouseover(function() {
@@ -61,5 +68,6 @@ $(document).ready(function() {
     });
     $("#neptune-area").mouseout(function() {
         $("#neptune").fadeOut();
+        $("#tech-info").css('opacity', '100');
     });
 })
