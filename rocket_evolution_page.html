@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/6d13644db2.js" crossorigin="anonymous"></script>
     <title>SpaceHub</title>
 </head>>
@@ -126,7 +127,6 @@
             <video autoplay="" loop="" muted="" preload="auto" autobuffer="true" width="100%" height="100%">
                 <source type="video/webm" src="./videos/falcon9_rotation.webm">
             </video>
-<!--            <div class="container">-->
             <div class="video-capture-left">
                 <div class="inner-left-middle">
                     <h3>Falcon 9</h3>
@@ -173,17 +173,9 @@
                     <div class="section-text">
                         <h2>Dragon dreams</h2>
                         <p>
-                            SpaceX kept the first 18 months of the Dragon cargo ship's development under wraps.
-                            Then, in March 2006, the company officially made Dragon public when the company submitted
-                            a proposal for NASA's Commercial Orbital Transportation Services (COTS) demonstration
-                            program. The ultimate goal was to develop a private spacecraft to ferry cargo to the
-                            International Space Station.
-                        </p>
-                        <p>
                             After Spacex hit several milestones, NASA selected SpaceX's Dragon in December 2008
                             to be one of the companies providing commercial resupply services to the space station.
-                            (The other company was Orbital Sciences, which later became Orbital ATK and now Northrop
-                            Grumman.)
+                            (The other company was Orbital Sciences)
                         </p>
                     </div>
                 </div>
@@ -197,16 +189,6 @@
                             Dragon made a successful maiden flight on Dec. 8, 2010, from Cape Canaveral
                             Air Force Station. Then, on May 22, 2012, Dragon launched for an important test:
                             an attempt to berth the spacecraft with the International Space Station.
-                        </p>
-                        <p>
-                            Dragon made it to the station safely on May 25 of that year, despite experiencing
-                            some problems with a laser system that was supposed to judge the craft's distance
-                            to the orbiting complex. The milestone prompted worldwide acclaim. It was the first time
-                            a private spacecraft docked with the space station.
-                        </p>
-                        <p>
-                            SpaceX has since upgraded its uncrewed Dragon cargo ships to be reusable for at least
-                            two flights.
                         </p>
                     </div>
                 </div>
@@ -397,9 +379,30 @@
                     </div>
                 </div>
             </div>
-
         </article>
 
+        <article id="crew-dragon-article">
+            <!-- !!! important -- video was taken from https://www.youtube.com/watch?v=vGiRgHxMbSw -->
+            <video
+                id="my-video"
+                class="video-js crew-dragon-video"
+                controls
+                preload="auto"
+                autoplay=""
+                loop=""
+                muted="">
+                <source src="./videos/See_SpaceX's_first_crewed_flight_in_this_amazing_animation_800_X.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    >supports HTML5 video</a
+                    >
+                </p>
+            </video>
+
+            <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+        </article>
 
         <section id="looking-to-future">
             <div class="text-container">

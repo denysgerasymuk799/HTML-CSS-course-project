@@ -7,6 +7,11 @@
     height: 40vh;
     overflow: hidden;
     grid-gap: 1rem;
+
+    background-image: url("../../img/milky-way-night.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #sign-up .section-text
@@ -76,7 +81,6 @@
 
 
 /* ========================== subscribe section ========================== */
-
 #subscribe .container
 {
     display: grid;
@@ -104,9 +108,6 @@
     align-self: center;
     justify-self: center;
 
-    /*background-position-x: 0%;*/
-    /*background-position-y: 0%;*/
-    /*background-size: auto;*/
     background: url(https://qravity.com/static/media/img-btn-scheme-2.66918e52.png) center center;
     background-size: 100% 100%;
     position: relative;

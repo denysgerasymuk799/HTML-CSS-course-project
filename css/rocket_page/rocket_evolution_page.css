@@ -105,14 +105,14 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
     width: 99vw;
-    height: 140vh;
+    /*height: 110vh;*/
     overflow: hidden;
     grid-gap: 1rem;
 }
 
 #early-dragon .left-img {
     grid-column: 1/7;
-    grid-row: 2/6;
+    grid-row: 2/7;
 
     background-image: url("../../img/rocket_page_imgs/dragon_dreams.jpg");
 
@@ -124,11 +124,12 @@
 
     margin-left: 8%;
     margin-right: 7%;
+    /*z-index: 1;*/
 }
 
 #early-dragon .right-img {
     grid-column: 6/13;
-    grid-row: 2/6;
+    grid-row: 2/7;
 
     background-image: url("../../img/rocket_page_imgs/early_dragon.jpg");
 
@@ -140,6 +141,7 @@
 
     margin-left: 20%;
     margin-right: 8%;
+    /*z-index: 1;*/
 }
 
 #early-dragon h2 {
@@ -151,7 +153,7 @@
 
 #early-dragon .left-text-container {
     grid-column: 1/7;
-    grid-row: 5/12;
+    grid-row: 6/13;
 
     margin-left: 12%;
     margin-right: 12%;
@@ -159,7 +161,7 @@
 
 #early-dragon .right-text-container {
     grid-column: 7/13;
-    grid-row: 5/12;
+    grid-row: 6/13;
 
     margin-left: 11%;
     margin-right: 14%;
@@ -172,15 +174,13 @@
     top: 7%;
 
     padding: 10%;
-    /*border-color: white;*/
-    /*border-width: medium;*/
 
     background: linear-gradient( #00253d ,    #001523 ,    #000000 );
     box-shadow:
             0.5rem 0.5rem 0.625rem 0  #f1c40f ,
             -0.3125rem -0.3125rem 0.3125rem 0 #ffa31a,
             0.3125rem 0.3125rem 1rem 0 yellow;
-    /*padding: 0em 1em;*/
+
     border-radius: 16px;
     border-style: solid;
     margin-left: 10px;
@@ -197,6 +197,21 @@
 
 #starship img {
     width: 130%;
+}
+
+#starship .section-text {
+    grid-column: 8/12;
+}
+
+
+/* ================ crew-dragon-video ================ */
+.crew-dragon-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
 }
 
 
