@@ -53,14 +53,14 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
     width: 99vw;
-    height: 70vh;
+    height: 100vh;
     overflow: hidden;
     grid-gap: 1rem;
 }
 
 #rocket-evol-intro .section-text {
     grid-column: 4/10;
-    grid-row: 2/12;
+    grid-row: 3/12;
 
     text-align: center;
 }
@@ -249,4 +249,3 @@
     text-align: justify;
     text-justify: inter-word;
 }
-
