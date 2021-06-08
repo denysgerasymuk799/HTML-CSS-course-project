@@ -65,7 +65,6 @@ header button
 header button img:hover
 {
     background-size: 20%;
-    background: #ffa31a;
     border: 0 solid transparent;
     border-radius: 100%;
     overflow: hidden;
