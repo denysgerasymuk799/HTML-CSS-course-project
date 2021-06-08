@@ -43,7 +43,7 @@ main {
 }
 
 section {
-    /* background: var(--ld_); */
+    background: var(--l_black);
 }
 
 
@@ -83,32 +83,6 @@ section h3 {
 
 section p {
   padding: 0.75rem;
-}
-
-ul {
-  /* list-style-position: outside; */
-  list-style: none;
-}
-
-ul li {
-  margin: 2.3vh 0;
-}
-
-ul li::before {
-  content: '';
-
-  display: inline-block;
-  height: 1rem;
-  width: 1rem;
-
-  background-size: 40px;
-  background-image: url("../img/list/right_arrow_white.png");
-  background-repeat: no-repeat;
-
-  margin-right: 0.625rem;
-
-  background-position: center center;
-  vertical-align: middle;
 }
 
 /* first page */
@@ -192,6 +166,10 @@ ul li::before {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* .article-content:hover ~ .dropdown-content {
+  display: block;
+} */
 
 .dropdown:hover table {
   display: block;
