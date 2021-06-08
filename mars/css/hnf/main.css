@@ -42,6 +42,7 @@
 {
     font-family: 'NotoSansJP-Medium', sans-serif;
     font-size: min(2vw, 2vh);
+    line-height: min(3vw, 3vh);
     background: linear-gradient(45deg,
                 black,
                 rgba(255, 0,0, 0.5),
