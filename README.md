@@ -26,3 +26,5 @@
 
 - videos on rocket_evolution_page were taken from official site -- https://www.spacex.com/ . We are very excited of the progress 
 of this company and decided to make rocket page based on its evolution.
+  
+- autoscroll works in Firefox, but it does not work in Chrome. This is [a bug of Chrome](https://stackoverflow.com/questions/64581125/website-double-scrolling-on-chrome-using-scroll-snap-type)
