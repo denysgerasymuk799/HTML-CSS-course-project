@@ -58,6 +58,7 @@
 #main-rocket-page .overview {
     background-image: none;
     height: 100vh;
+    max-width: 90vw;
 }
 
 #main-rocket-page video {
