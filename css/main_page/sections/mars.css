@@ -1,12 +1,14 @@
 #mars-theme
 {
-    background: url("../../../img/mars.png");
+    background: url("../../../img/main_page_imgs/mars.png");
     background-size: cover;
 }
 
 
 #mars-theme .discover-button
 {
+    text-decoration: none;
+    color: white;
     --btn_c_begin: 8;
     --btn_c_end: 9;
 

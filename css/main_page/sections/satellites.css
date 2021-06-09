@@ -1,6 +1,6 @@
 #satellites-theme
 {
-    background: url("../../../img/satellites.jpeg");
+    background: url("../../../img/main_page_imgs/satellites.jpeg");
     background-repeat:no-repeat;
     background-position: left;
     background-size: contain;
@@ -27,17 +27,13 @@
     --sct_r_end: 3;
 }
 
-#satellites-theme ul {
-    list-style-position: none;
-}
 
 #satellites-theme ul li {
-    padding-left: 2rem;
+    padding-left: 2.4rem;
     background-size: 2.5rem;
-    margin: 1.1rem;
+    margin: 1rem;
     height: 3rem;
     background-image: url("../../../img/list/right_arrow_white.png");
     background-repeat: no-repeat;   
     background-position: 0 0;
-    
 }

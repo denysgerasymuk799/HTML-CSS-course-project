@@ -1,0 +1,82 @@
+header
+{
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    transition: top 0.3s;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:after
+{
+    background: none repeat scroll 0 0 #ffa31a;
+    margin-top: 1rem;
+    content: "";
+    display: block;
+    height: 0.175rem;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+
+header a:hover:after
+{
+    width: 100%;
+    left: 0;
+}
+
+
+header a
+{
+
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+}
+
+header button
+{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    display: inline-block;
+}
+
+header button img:hover
+{
+    background-size: 20%;
+    border: 0 solid transparent;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+header button img
+{
+    width: 2.3vw;
+    display: inline-block;
+}
+
+header img {
+    width: 10vw;
+
+}
