@@ -27,13 +27,24 @@
     --sct_r_end: 3;
 }
 
+#satellites-theme ul {
+    list-style-position: outside;
+    margin: 3vh 0;
+}
 
 #satellites-theme ul li {
-    padding-left: 2.4rem;
-    background-size: 2.5rem;
-    margin: 1rem;
-    height: 3rem;
+    margin: 2.3vh 0;
+}
+
+#satellites-theme ul li::before {
+    content: '';
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    background-size: 3rem;
     background-image: url("../../../img/list/right_arrow_white.png");
-    background-repeat: no-repeat;   
-    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-right: 0.625rem;
+    background-position: center center;
+    vertical-align: middle;
 }
