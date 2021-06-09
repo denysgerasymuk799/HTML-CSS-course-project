@@ -29,6 +29,8 @@ html
 {
     font-size: 16px;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
 }
 
 
@@ -50,6 +52,16 @@ section h1,h2
 section
 {
     background: black;
+    scroll-snap-align: start;
+    padding: 3rem;
+}
+
+footer {
+    scroll-snap-align: start;
+}
+
+#saturn-content > ul{
+    margin-top: 10rem;
 }
 
 
@@ -108,6 +120,7 @@ section > div
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3rem;
     padding: 1rem;
 }
 #areas
@@ -115,7 +128,7 @@ section > div
     list-style: none;
     display: block;
     position: relative;
-    top: 20rem;
+    top: 18rem;
     opacity: 0;
 }
 #areas li
@@ -135,7 +148,7 @@ section > div
 {
     width: 4rem;
     height: 4rem;
-    left: 16.5rem;
+    left: 15rem;
 }
 #venus-area
 {

@@ -1,10 +1,12 @@
+const duration_time = 0
+
 $(document).ready(function() {
     $("#mercury-area").mouseover(function() {
         $("#mercury").fadeIn();
         $("#tech-info").css('opacity', '0');
     });
     $("#mercury-area").mouseout(function() {
-        $("#mercury").fadeOut();
+        $("#mercury").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 
@@ -13,7 +15,7 @@ $(document).ready(function() {
         $("#tech-info").css('opacity', '0');
     });
     $("#venus-area").mouseout(function() {
-        $("#venus").fadeOut();
+        $("#venus").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 
@@ -22,7 +24,7 @@ $(document).ready(function() {
         $("#tech-info").css('opacity', '0');
     });
     $("#earth-area").mouseout(function() {
-        $("#earth").fadeOut();
+        $("#earth").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 
@@ -31,7 +33,7 @@ $(document).ready(function() {
         $("#tech-info").css('opacity', '0');
     });
     $("#mars-area").mouseout(function() {
-        $("#mars").fadeOut();
+        $("#mars").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 
@@ -40,7 +42,7 @@ $(document).ready(function() {
         $("#tech-info").css('opacity', '0');
     });
     $("#jupiter-area").mouseout(function() {
-        $("#jupiter").fadeOut();
+        $("#jupiter").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 
@@ -49,7 +51,7 @@ $(document).ready(function() {
         $("#tech-info").css('opacity', '0');
     });
     $("#saturn-area").mouseout(function() {
-        $("#saturn").fadeOut();
+        $("#saturn").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 
@@ -58,7 +60,7 @@ $(document).ready(function() {
         $("#tech-info").css('opacity', '0');
     });
     $("#uranus-area").mouseout(function() {
-        $("#uranus").fadeOut();
+        $("#uranus").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 
@@ -67,7 +69,7 @@ $(document).ready(function() {
         $("#tech-info").css('opacity', '0');
     });
     $("#neptune-area").mouseout(function() {
-        $("#neptune").fadeOut();
+        $("#neptune").fadeOut(duration=duration_time);
         $("#tech-info").css('opacity', '100');
     });
 })
