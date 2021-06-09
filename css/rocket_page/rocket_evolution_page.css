@@ -1,5 +1,5 @@
 body #rocket-page {
-    max-width: 100vw;
+    max-width: 99vw;
 }
 
 #rocket-evol-page {
@@ -7,7 +7,7 @@ body #rocket-page {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
 
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     overflow: hidden;
     grid-gap: 1rem;
@@ -56,7 +56,7 @@ body #rocket-page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     overflow: hidden;
     grid-gap: 1rem;
@@ -108,7 +108,7 @@ body #rocket-page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    width: 100vw;
+    width: 99vw;
     /*height: 110vh;*/
     overflow: hidden;
     grid-gap: 1rem;
@@ -211,7 +211,7 @@ body #rocket-page {
 /* ================ crew-dragon-video ================ */
 .crew-dragon-video {
     object-fit: cover;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     /*position: fixed;*/
     top: 0;
@@ -225,7 +225,7 @@ body #rocket-page {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
 
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     overflow: hidden;
     grid-gap: 1rem;
@@ -255,5 +255,5 @@ body #rocket-page {
 }
 
 .first-crewed-flight-video {
-    max-width: 100vw;
+    max-width: 99vw;
 }

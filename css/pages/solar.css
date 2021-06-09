@@ -102,8 +102,7 @@ section > div
 
 #interactive-model
 {
-    background: url("../../img/solar/planets.jpg");
-    background-color: black;
+    background: black url("../../img/solar/planets.jpg");
     background-size: cover;
 }
 #tech-info
@@ -202,7 +201,6 @@ section > div
     transition: 0.3s;
     width: 30rem;
 }
-
 
 
 .content-section

@@ -1,6 +1,13 @@
+.snap-container section, .snap-container footer {
+    scroll-snap-align: start;
+}
+
+#main-rocket-page section, article {
+    scroll-snap-align: start;
+}
+
 #main-rocket-page article {
-    /*background: black;*/
-    background-image: url("../../img/rocket_page_imgs/dark-starry-sky-night-sky-star.jpg");
+    background-image: url("../../img/solar/stars.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,12 +65,12 @@
 #main-rocket-page .overview {
     background-image: none;
     height: 100vh;
-    max-width: 90vw;
+    max-width: 85vw;
 }
 
 #main-rocket-page video {
     object-fit: cover;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 }
 
