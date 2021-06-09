@@ -1,6 +1,6 @@
-@import "../../css/reset.css";
-@import "../../css/hnf/header.css";
-@import "../../css/hnf/footer.css";
+@import "../reset.css";
+@import "../hnf/header.css";
+@import "../hnf/footer.css";
 @font-face
 {
     font-family: 'NotoSansJP-Medium';
@@ -67,8 +67,13 @@ section
     box-sizing:border-box;
 }
 
+p {
+  
+  line-height: 1.6;
+}
+
 .img-container {
-  background-image: url("../img/home1.jpg");
+  background-image: url("../../img/satellite_img/home1.jpg");
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
@@ -80,6 +85,12 @@ section
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#home h1 {
+  /* color: rgb(253, 251, 251); */
+  text-shadow: -1px 0 var(--l_orange), 0 1px var(--l_orange), 3px 0 var(--l_orange), 0 -1px var(--l_orange);
+  /* text-shadow: 1px 0px var(--l_orange) */
 }
 
 h1 {
@@ -116,7 +127,7 @@ h2 {
 }
 
 #history {
-  background-image: url('../img/dark_sky.jpg');
+  background-image: url('../../img/satellite_img/dark_sky.jpg');
 }
 
 #history div:first-of-type {
@@ -130,8 +141,9 @@ h2 {
 #history img:first-of-type {
   background-color: var(--l_gray);
   grid-column: 2 / 7;
-  grid-row: 6 / 13;
+  grid-row: 7 / 13;
   width: 100%;
+  height: 110%;
 }
 
 #history div:last-of-type {
@@ -150,7 +162,7 @@ h2 {
 }
 
 #space {
-  background-image: url('../img/Hubble.gif');
+  background-image: url('../../img/satellite_img/Hubble.gif');
 }
 
 #space div:first-of-type {
@@ -201,8 +213,9 @@ h2 {
 #black-hole img:first-of-type {
   grid-column: 8 / 13;
   object-fit: cover;
-  grid-row: 5 / 13;
+  grid-row: 6 / 13;
   width: 100%;
+  height: 110%;
 }
 
 #black-hole div {
