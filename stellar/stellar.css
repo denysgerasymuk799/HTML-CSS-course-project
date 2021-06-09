@@ -34,6 +34,10 @@ body {
 
 }
 
+.snap-container section, .snap-container footer {
+  scroll-snap-align: start;
+}
+
 p {
   line-height: 2;
 }
@@ -43,7 +47,7 @@ main {
 }
 
 section {
-    /* background: var(--ld_); */
+    background: var(--l_black);
 }
 
 
@@ -85,32 +89,6 @@ section p {
   padding: 0.75rem;
 }
 
-ul {
-  /* list-style-position: outside; */
-  list-style: none;
-}
-
-ul li {
-  margin: 2.3vh 0;
-}
-
-ul li::before {
-  content: '';
-
-  display: inline-block;
-  height: 1rem;
-  width: 1rem;
-
-  background-size: 40px;
-  background-image: url("../img/list/right_arrow_white.png");
-  background-repeat: no-repeat;
-
-  margin-right: 0.625rem;
-
-  background-position: center center;
-  vertical-align: middle;
-}
-
 /* first page */
 #first-page h2 {
   font-weight: bold;
@@ -145,6 +123,12 @@ ul li::before {
   align-items: center;
   justify-content: center;
 
+  margin: 1rem;
+
+}
+
+.dropdown table {
+  margin-left: 1.5rem;
 }
 
 .article-content a {
@@ -167,12 +151,14 @@ ul li::before {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   
-  /* margin: 0.25rem; */
   max-height: 100%;
   width: 100%;
   overflow:scroll; 
-  margin: 0.25rem 0.75rem 0 0.75rem;
+  margin: 0.25rem 0.75rem 0 1.5rem;
   transition: 0.3s;
+
+  /* margin-left: 1.5rem; */
+
 }
 
 .dropdown-content a {
@@ -194,7 +180,6 @@ ul li::before {
 }
 
 .dropdown:hover table {
-  display: block;
   display: none;
 }
 
@@ -307,7 +292,7 @@ tr:nth-child(even) {
 /* Main sequence */
 #main-sequence p:first-of-type {
   grid-column: 2 / 10;
-  grid-row: 3 / 9;
+  grid-row: 4 / 9;
   overflow: hidden;
 }
 
@@ -327,6 +312,7 @@ tr:nth-child(even) {
   grid-column: 10 / 16;
   grid-row: 3 / 9;
   width: 100%;
+  margin-top: 1rem;
 }
 
 #main-sequence h3:last-of-type {
@@ -344,7 +330,7 @@ tr:nth-child(even) {
 
 /* Supernova */
 #supernova  p:first-of-type {
-  grid-column: 2 / 10;
+  grid-column: 2 / 11;
   grid-row: 4 / 8;
   overflow: hidden;
 }
@@ -366,7 +352,8 @@ tr:nth-child(even) {
 
 #supernova h3:nth-last-of-type(2) {
   grid-column: 12 / 16;
-  grid-row: 2 / 4;
+  grid-row: 2 / 3;
+  margin-top: 1rem;
 }
 
 #supernova img:last-of-type {
@@ -415,4 +402,5 @@ tr:nth-child(even) {
 #supernova p:last-of-type {
   grid-column: 11 / 17;
   grid-row: 9 / 17;
+  margin-top: 1rem;
 }
