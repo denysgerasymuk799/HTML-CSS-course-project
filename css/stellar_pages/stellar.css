@@ -21,8 +21,6 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
 
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
 }
 
@@ -42,7 +40,7 @@ p {
 }
 
 main {
-  margin: 0, auto;
+  margin: auto;
 }
 
 section {
@@ -70,7 +68,14 @@ section {
   grid-row: 2 / 4;
 }
 
-section h1 {
+.section-container h2:first-of-type {
+  grid-column: 2 / 15;
+  grid-row: 2 / 4;
+  margin-top: 2rem;
+
+}
+
+section h1, section h2:first-of-type {
   font-family: 'Kanit-Bold', sans-serif;
   color: var(--l_orange);
   font-weight: 500;
@@ -184,6 +189,11 @@ section p {
   grid-row: 4 / 6;
   text-align: left;
   padding: 0.25rem 0rem 0.25rem 0.75rem;
+}
+
+#first-page h3:first-of-type {
+  grid-column: 2 / 10;
+  grid-row: 4 / 5;
 }
 
 /* first paragraph */
