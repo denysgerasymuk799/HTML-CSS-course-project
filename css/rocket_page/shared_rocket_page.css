@@ -1,6 +1,16 @@
+.snap-container section, .snap-container footer {
+    scroll-snap-align: start;
+}
+
+#main-rocket-page section, article {
+    scroll-snap-align: start;
+}
+
 #main-rocket-page article {
-    /*background: black;*/
-    background-image: url("../../img/rocket_page_imgs/dark-starry-sky-night-sky-star.jpg");
+    background-image: url("../../img/solar/stars.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #main-rocket-page article p {
@@ -17,7 +27,6 @@
     font-size: 3rem;
     margin-top: 2rem;
 }
-
 
 #main-rocket-page .section-text-left {
     grid-column: 2/6;
@@ -56,6 +65,7 @@
 #main-rocket-page .overview {
     background-image: none;
     height: 100vh;
+    max-width: 85vw;
 }
 
 #main-rocket-page video {
@@ -120,12 +130,6 @@
     font-size: 3rem;
     padding-bottom: 2rem;
 }
-
-
-/*#main-rocket-page tbody tr:nth-of-type(even) {*/
-/*    background-color: #f3f3f3;*/
-/*}*/
-
 
 #main-rocket-page .video-capture-left h3, h2 {
     visibility: inherit;

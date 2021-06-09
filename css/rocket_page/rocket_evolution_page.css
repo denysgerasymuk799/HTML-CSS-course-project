@@ -1,3 +1,7 @@
+body #rocket-page {
+    max-width: 99vw;
+}
+
 #rocket-evol-page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -207,7 +211,7 @@
 /* ================ crew-dragon-video ================ */
 .crew-dragon-video {
     object-fit: cover;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     /*position: fixed;*/
     top: 0;
@@ -248,4 +252,8 @@
     line-height: 1.5rem;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.first-crewed-flight-video {
+    max-width: 99vw;
 }

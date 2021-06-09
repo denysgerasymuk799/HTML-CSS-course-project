@@ -6,8 +6,8 @@
     <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/6d13644db2.js" crossorigin="anonymous"></script>
     <title>SpaceHub</title>
-</head>>
-<body>
+</head>
+<body id="rocket-page" class="snap-container">
 
     <header>
         <h1><a href="../index.html#main-page"><img src="../img/main_page_imgs/logo.png" alt="SpaceHub"></a></h1>
@@ -124,7 +124,7 @@
 
         <article id="falcon9-overview" class="overview">
             <!-- !!! important -- video was taken from official site -- https://www.spacex.com/ -->
-            <video autoplay="" loop="" muted="" preload="auto" autobuffer="true" width="100%" height="100%">
+            <video autoplay="" loop="" muted="" preload="auto" autobuffer="true" width="100vw" height="100%">
                 <source type="video/webm" src="../videos/falcon9_rotation.webm">
             </video>
             <div class="video-capture-left">
@@ -197,7 +197,7 @@
 
         <article id="dragon-overview" class="overview">
             <!-- !!! important -- video was taken from official site -- https://www.spacex.com/ -->
-            <video autoplay="" loop="" muted="" preload="auto" autobuffer="true" width="100%" height="100%">
+            <video autoplay="" loop="" muted="" preload="auto" autobuffer="true" width="100vw" height="100%">
                 <source type="video/webm" src="../videos/DragonTrunk_Animation_Render_Desktop.webm">
             </video>
             <div class="video-capture-left">
@@ -322,7 +322,7 @@
 
         <article id="starship-overview" class="overview">
             <!-- !!! important -- video was taken from official site -- https://www.spacex.com/ -->
-            <video autoplay="" loop="" muted="" preload="auto" autobuffer="true" width="100%" height="100%">
+            <video autoplay="" loop="" muted="" preload="auto" autobuffer="true" width="100vw" height="100%">
                 <source type="video/webm" src="../videos/Starship.webm">
             </video>
             <div class="video-capture-left">
@@ -384,8 +384,7 @@
         <article id="crew-dragon-article">
             <!-- !!! important -- video was taken from https://www.youtube.com/watch?v=vGiRgHxMbSw -->
             <video
-                id="my-video"
-                class="video-js crew-dragon-video"
+                class="video-js crew-dragon-video first-crewed-flight-video"
                 controls
                 preload="auto"
                 autoplay=""
@@ -395,9 +394,9 @@
                 <p class="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a
                     web browser that
-                    <a href="https://videojs.com/html5-video-support/" target="_blank"
-                    >supports HTML5 video</a
-                    >
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">
+                        supports HTML5 video
+                    </a>
                 </p>
             </video>
             <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
