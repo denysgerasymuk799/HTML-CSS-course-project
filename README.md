@@ -12,12 +12,12 @@
 ## Description
 
 - The **idea** of the site is to describe the most important areas of human being that
-  have helped better understand space.
+  have helped better understand the space.
   
-- The **main purpose** is to interest people to learn more about space.
+- The **main purpose** is to interest people to learn more about the space.
   
 - Technologies - **HTML & CSS**, and more interesting are **grid** to place components of each page, 
-  and flexbox for navigation bar, and partly **JavaScript** to make our site more dynamic.
+  and **flexbox** for navigation bar, and partly **JavaScript** to make our site more dynamic.
   
 - Project video presentation -- https://drive.google.com/drive/folders/1tT1S4Q3-wGp6ACfvBP3fIAFvqLkkm-Ie?usp=sharing
 
