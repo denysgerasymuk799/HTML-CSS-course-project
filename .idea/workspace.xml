@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="927295e4-533b-4136-b665-a6b68c38950d" name="Default Changelist" comment="almost done with structure" />
+    <list default="true" id="927295e4-533b-4136-b665-a6b68c38950d" name="Default Changelist" comment="almost done with structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hnf/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hnf/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hnf/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hnf/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main_page/sign_up_and_subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main_page/sign_up_and_subscribe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/solar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/rocket_page/double_sections.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rocket_page/double_sections.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/rocket_page/rocket_evolution_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rocket_page/rocket_evolution_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/rocket_page/shared_rocket_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/rocket_page/shared_rocket_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/satellite_page/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/satellite_page/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/solar_pages/solar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/solar_pages/solar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stellar_pages/stellar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stellar_pages/stellar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/solar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/solar.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +112,7 @@
       <workItem from="1623101935586" duration="3081000" />
       <workItem from="1623229999989" duration="2715000" />
       <workItem from="1623243544980" duration="565000" />
+      <workItem from="1623244117370" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="added background">
       <created>1613501275978</created>

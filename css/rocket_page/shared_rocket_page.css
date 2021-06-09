@@ -35,7 +35,6 @@
 
 
 #main-rocket-page .article-img-left {
-    /*display: none;*/
     align-self: center;
     justify-self: center;
 
@@ -75,11 +74,6 @@
 }
 
 #main-rocket-page table {
-    /*width: 100%;*/
-    /*margin-top: 30px;*/
-
-    /*border-collapse: collapse;*/
-    /*border-spacing: 0;*/
     visibility: inherit;
     opacity: 1;
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -88,13 +82,10 @@
     margin: 25px 0;
     font-family: sans-serif;
     width: 70vh;
-    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);*/
 }
 
 #main-rocket-page tbody tr {
-    /*background-color: #009879;*/
     text-align: left;
-
     border-bottom: 0.1rem solid grey;
 }
 

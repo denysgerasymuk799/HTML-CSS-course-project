@@ -40,9 +40,6 @@
     --btn_r_begin: 6;
     --btn_r_end: 6;
 
-    /*position: relative;*/
-    /*right: -4rem;*/
-
     align-self: center;
     justify-self: center;
 
@@ -61,17 +58,7 @@
     background: #1b1b1b50;
     color: white;
 
-    /*position: relative;*/
-    /*top: 15rem;*/
-    /*left: 30rem;*/
-
-    /*!* border: 2px solid #FFFFFF; *!*/
     padding: 1.5vw;
-    /*!* width: 20%; *!*/
-
-    /*transition: 0.3s;*/
-    /*transform:translate(-50%,-50%);*/
-
 }
 
 .sign-up-button:hover
@@ -108,17 +95,9 @@
     align-self: center;
     justify-self: center;
 
-    background: url(https://qravity.com/static/media/img-btn-scheme-2.66918e52.png) center center;
     background-size: 100% 100%;
     position: relative;
-    background-position: center;
-    /*content: '';*/
-    /*position: absolute;*/
-    /*left: -25px;*/
-    /*right: -25px;*/
-    /*top: 0;*/
-    /*bottom: 0;*/
-    /*z-index: 0;*/
+    background: url(https://qravity.com/static/media/img-btn-scheme-2.66918e52.png) center;
     height: 250%;
     width: 130%;
 }
@@ -131,13 +110,9 @@
     --email_r_begin: 3;
     --email_r_end: 3;
 
-    /*display: inline-block;*/
-    /*align-self: center;*/
-    /*justify-self: center;*/
     position: relative;
     top: 25%;
     text-align: center;
-    /*padding-bottom: -75%;*/
 }
 
 

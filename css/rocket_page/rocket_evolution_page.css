@@ -102,14 +102,12 @@ body #rocket-page {
 
 
 /* ================ early-dragon ================ */
-
 #early-dragon .container
 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
     width: 99vw;
-    /*height: 110vh;*/
     overflow: hidden;
     grid-gap: 1rem;
 }
@@ -128,7 +126,6 @@ body #rocket-page {
 
     margin-left: 8%;
     margin-right: 7%;
-    /*z-index: 1;*/
 }
 
 #early-dragon .right-img {
@@ -145,7 +142,6 @@ body #rocket-page {
 
     margin-left: 20%;
     margin-right: 8%;
-    /*z-index: 1;*/
 }
 
 #early-dragon h2 {
@@ -213,7 +209,6 @@ body #rocket-page {
     object-fit: cover;
     width: 99vw;
     height: 100vh;
-    /*position: fixed;*/
     top: 0;
     left: 0;
 }

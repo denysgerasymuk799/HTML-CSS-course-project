@@ -88,9 +88,7 @@ p {
 }
 
 #home h1 {
-  /* color: rgb(253, 251, 251); */
   text-shadow: -1px 0 var(--l_orange), 0 1px var(--l_orange), 3px 0 var(--l_orange), 0 -1px var(--l_orange);
-  /* text-shadow: 1px 0px var(--l_orange) */
 }
 
 h1 {
