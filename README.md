@@ -1,16 +1,30 @@
 # WEB design project: Site of space lovers
 
 ## Authors:
+
 - Pavlo Hilei
 - Denys Herasymuk
 - Yevhen Pankevych
 - Volodymyr Tsapiv
 - Maxym Bilyk
 
-SpaceHub - place, where space fans can meet together and talk about different cosmic stuff
+
+## Description
+
+- The **idea** of the site is to describe the most important areas of human being that
+  have helped better understand the space.
+  
+- The **main purpose** is to interest people to learn more about the space.
+  
+- Technologies - **HTML & CSS**, and more interesting are **grid** to place components of each page, 
+  and **flexbox** for navigation bar, and partly **JavaScript** to make our site more dynamic.
+  
+- Project video presentation -- https://drive.google.com/drive/folders/1tT1S4Q3-wGp6ACfvBP3fIAFvqLkkm-Ie?usp=sharing
 
 
-## !!! Important
+## Important!
 
 - videos on rocket_evolution_page were taken from official site -- https://www.spacex.com/ . We are very excited of the progress 
-of this company and decided to make rocket page based on itd evolution.
+of this company and decided to make rocket page based on its evolution.
+  
+- autoscroll works in Firefox, but it does not work in Chrome. This is [a bug of Chrome](https://stackoverflow.com/questions/64581125/website-double-scrolling-on-chrome-using-scroll-snap-type)
