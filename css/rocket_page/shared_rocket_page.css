@@ -127,3 +127,8 @@
     opacity: 1;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
+#main-rocket-page video {
+    width: 100vw;
+    height: 100vh;
+}
