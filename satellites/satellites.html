@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+    <script src="https://kit.fontawesome.com/6d13644db2.js" crossorigin="anonymous"></script>
+    <title>SpaceHub - Telescopes & Satellites</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html#main-page"><img src="../img/main_page_imgs/logo.png" alt="SpaceHub"></a></h1>
+        <nav>
+            <a href="../index.html#solar-theme">Solar System</a>
+            <a href="../index.html#stellar-theme">Stars evolution</a>
+            <a href="../index.html#satellites-theme">Telescopes</a>
+            <a href="../index.html#rocket-theme">Rocket evolution</a>
+            <a href="../index.html#mars-theme">Mars colonization</a>
+        </nav>
+
+        <button>
+            <img src="../img/main_page_imgs/sign_in.png">
+        </button>
+    </header>
+    <main>
+        <section id="home">
+            <div class="text-container">
+                <h1>
+                    Telescopes & Satellites
+                </h1>
+            </div>
+        </section>
+        <section id="history">
+            <div class="img-container">
+                <img src="img/section.jpg" alt="Telescope">
+            </div>
+            <div class="text-container">
+                <h1>
+                    Title
+                </h1>
+                    
+                <h2>
+                    Subtitle
+                </h2>
+                <div>
+                    <a>button</a>
+                </div>
+            </div>
+        </section>
+        <section id="space">
+            <div class="img-container">
+                <img src="img/section.jpg" alt="Telescope">
+            </div>
+            <div class="text-container">
+                <h1>
+                    Title
+                </h1>
+                    
+                <h2>
+                    Subtitle
+                </h2>
+                <div>
+                    <a>button</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p class="footer-heading">About</p>
+            <p>Sometimes we want just to give up and do not care about anything</p>
+        </div>
+        <div class="footer-container">
+            <p class="footer-heading">Quick links</p>
+            <ul class="footer-links">
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Locations</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Forums</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="footer-container">
+            <p id="footer-copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                <a href="#">SpaceHub</a>.
+            </p>
+
+            <ul class="social-icons">
+                <li><a id="facebook" href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li><a id="twitter" href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a id="telegram" href="#"><i class="fab fa-telegram fa-2x"></i></a></li>
+                <li><a id="linkedin" href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-6rem";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,183 @@
+@import "../../css/reset.css";
+/* @import "../../css/shared.css"; */
+@import "header.css";
+@import "footer.css";
+@font-face
+{
+    font-family: 'NotoSansJP-Medium';
+    src: url('../../font/NotoSansJP-Medium.otf');
+}
+
+
+@font-face
+{
+    font-family: 'Kanit-Bold';
+    src: url('../../font/Kanit-Bold.ttf');
+}
+
+:root
+{
+    --l_orange: #ffa31a;
+    --l_black:  #1b1b1b;
+    --l_gray:   #808080;
+    --ld_gray:  #292929;
+}
+
+
+@font-face
+{
+    font-family: 'NotoSansJP-Medium';
+    src: url('../../font/NotoSansJP-Medium.otf');
+}
+
+
+@font-face
+{
+    font-family: 'Kanit-Bold';
+    src: url('../../font/Kanit-Bold.ttf');
+}
+
+
+html
+{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+body
+{
+    font-family: 'NotoSansJP-Medium', sans-serif;
+    color: white;
+}
+
+
+
+section
+{
+    display: block;
+    position: relative;
+    background: black;
+    height:100vh;
+    width:100vw;
+    box-sizing:border-box;
+}
+
+
+/* Navigation */
+/* 
+header {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+  background-color: transparent;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  transition: top 0.3s;
+  align-items: center;
+  }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  } */
+
+/* header a:after {    
+  background: none repeat scroll 0 0 transparent;
+  margin-top: 1rem;
+  content: "";
+  display: block;
+  height: 0.175rem;
+  background: #ffa31a;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+} */
+/* header a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+header a {
+
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+    
+  } */
+
+/* header img {
+    display: block;
+    height: calc(4rem - 4px);
+    width: auto;
+    
+  } */
+/* Home page */
+#home {
+  background: url("../img/home1.jpg");
+  background-position: bottom;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Kanit-Bold', sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  
+  font-size: 2rem;
+}
+
+.text-container > div {
+  padding-top: 5%;
+}
+
+/* .text-container a
+{
+  display: inline-block;
+  background: transparent;
+  padding: 1rem 2rem;
+  border: 0.15rem solid white;
+
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.01rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+
+.text-container a:hover
+{
+    
+  border: 0.15rem solid var(--l_orange);
+} */
+
+#home .text-container {
+
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    
+  /* height: fit-content;
+  width: 30%;
+  padding-top: 22%;
+  padding-left: 62%; */
+}
